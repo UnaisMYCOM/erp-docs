@@ -1,33 +1,103 @@
 {
-  "title": "ERP System Documentation",
-  "sidebar": {
-    "Purchase Module": [
-      "purchase/overview.md",
-      "purchase/workflow.md",
-      "purchase/api.md",
-      "purchase/db-schema.md"
-    ],
-    "Inventory Module": [
-      "inventory/overview.md",
-      "inventory/workflow.md",
-      "inventory/api.md",
-      "inventory/db-schema.md"
-    ],
-    "Sales Module": [
-      "sales/overview.md",
-      "sales/workflow.md"
-    ],
-    "POS Module": [
-      "pos/overview.md",
-      "pos/workflow.md"
-    ],
-    "CRM Module": [
-      "crm/overview.md",
-      "crm/workflow.md"
-    ],
-    "Finance Module": [
-      "finance/overview.md",
-      "finance/workflow.md"
-    ]
-  }
+  "sidebar": [
+    {
+      "group": "Home",
+      "pages": [
+        {
+          "title": "ERP Documentation Home",
+          "href": "/"
+        },
+        {
+          "title": "API Reference",
+          "href": "/api/README.md"
+        },
+        {
+          "title": "Database Schema Overview",
+          "href": "/db-schema/README.md"
+        },
+        {
+          "title": "Change Log",
+          "href": "/changelog.md"
+        },
+        {
+          "title": "Support",
+          "href": "/support.md"
+        }
+      ]
+    },
+    {
+      "group": "Internal Documentation",
+      "pages": [
+        {
+          "title": "Internal Home",
+          "href": "/internal/index.mdx"
+        },
+        {
+          "title": "Purchase Module Overview",
+          "href": "/internal/purchase/overview.mdx"
+        },
+        {
+          "title": "Purchase Workflow",
+          "href": "/internal/purchase/workflow.mdx"
+        },
+        {
+          "title": "Purchase API",
+          "href": "/internal/purchase/api.mdx"
+        },
+        {
+          "title": "Purchase DB Schema",
+          "href": "/internal/purchase/db-schema.mdx"
+        },
+        {
+          "title": "Inventory Module Overview",
+          "href": "/internal/inventory/overview.mdx"
+        },
+        {
+          "title": "Inventory Workflow",
+          "href": "/internal/inventory/workflow.mdx"
+        },
+        {
+          "title": "Inventory API",
+          "href": "/internal/inventory/api.mdx"
+        },
+        {
+          "title": "Inventory DB Schema",
+          "href": "/internal/inventory/db-schema.mdx"
+        }
+      ]
+    },
+    {
+      "group": "User Manual",
+      "pages": [
+        {
+          "title": "User Manual Home",
+          "href": "/user-manual/index.mdx"
+        },
+        {
+          "title": "Purchase Getting Started",
+          "href": "/user-manual/purchase/getting-started.mdx"
+        },
+        {
+          "title": "How to Create PO",
+          "href": "/user-manual/purchase/how-to-create-po.mdx"
+        },
+        {
+          "title": "Purchase FAQ",
+          "href": "/user-manual/purchase/faq.mdx"
+        },
+        {
+          "title": "Inventory Getting Started",
+          "href": "/user-manual/inventory/getting-started.mdx"
+        },
+        {
+          "title": "How to Add Stock",
+          "href": "/user-manual/inventory/how-to-add-stock.mdx"
+        },
+        {
+          "title": "Inventory FAQ",
+          "href": "/user-manual/inventory/faq.mdx"
+        }
+      ]
+    }
+  ]
 }
