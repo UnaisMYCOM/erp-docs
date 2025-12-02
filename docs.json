@@ -1,21 +1,33 @@
 {
-  "name": "My Docs",
-  "description": "My documentation site",
-  "sidebar": [
-  {
-    "group": "Getting Started",
-    "pages": [
-      {
-        "title": "Getting to know docs.page",
-        "href": "/",
-        "icon": "rocket"
-      },
-      {
-        "title": "Next Steps",
-        "href": "/next-steps",
-        "icon": "arrow-right"
-      }
+  "title": "ERP System Documentation",
+  "sidebar": {
+    "Purchase Module": [
+      "purchase/overview.md",
+      "purchase/workflow.md",
+      "purchase/api.md",
+      "purchase/db-schema.md"
+    ],
+    "Inventory Module": [
+      "inventory/overview.md",
+      "inventory/workflow.md",
+      "inventory/api.md",
+      "inventory/db-schema.md"
+    ],
+    "Sales Module": [
+      "sales/overview.md",
+      "sales/workflow.md"
+    ],
+    "POS Module": [
+      "pos/overview.md",
+      "pos/workflow.md"
+    ],
+    "CRM Module": [
+      "crm/overview.md",
+      "crm/workflow.md"
+    ],
+    "Finance Module": [
+      "finance/overview.md",
+      "finance/workflow.md"
     ]
   }
-]
 }
