@@ -1,56 +1,60 @@
+# ERP System Documentation
+
+Welcome to the official documentation for the ERP system.  
+This site provides detailed information for developers, administrators, and end-users, including module workflows, APIs, database schemas, and stored procedures.
+
 ---
-title: Welcome to docs.page!
-description: Get started with docs.page
+
+## Modules
+
+### [Purchase Module](purchase/overview.md)
+Manage purchase orders, suppliers, approvals, and inventory inflow.
+
+### [Inventory Module](inventory/overview.md)
+Track stock, items, warehouses, and inventory adjustments.
+
+### [Sales Module](sales/overview.md)
+Handle customer orders, invoices, returns, and reporting.
+
+### [POS Module](pos/overview.md)
+Point of Sale interface for retail operations, including payments, receipts, and reports.
+
+### [CRM Module](crm/overview.md)
+Manage customer relationships, communications, leads, and follow-ups.
+
+### [Finance Module](finance/overview.md)
+Track accounts payable, receivable, general ledger, and financial reports.
+
 ---
 
-Welcome to docs.page! The init command you just ran has created a basic file struture in your project to help you get started.
+## How to Use This Documentation
 
-## Walkthrough
+Each module contains the following sections:
 
-### Configuration
+- **Overview** – What the module does and key features.  
+- **Workflow** – Step-by-step business processes and user flows.  
+- **API** – Integration endpoints and sample requests/responses.  
+- **DB Schema** – Relevant database tables, columns, and relationships.  
+- **Stored Procedures** – Backend logic and important SPs.  
 
-In the root of your directory a new `docs.json` file has been created. This file is used to configure your documentation site. You can customize the name, description, and sidebar, theme, logos and more using this file.
+Navigation can be done via the sidebar or by clicking the links above.
 
-Here's a basic example of what the file looks like:
+---
 
-```
-{
-  "name": "My Docs",
-  "description": "My documentation site",
-  "sidebar": [
-  {
-    "group": "Getting Started",
-    "pages": [
-      {
-        "title": "Getting to know docs.page",
-        "href": "/",
-        "icon": "rocket"
-      },
-      {
-        "title": "Next Steps",
-        "href": "/next-steps",
-        "icon": "arrow-right"
-      }
-    ]
-  }
-]
-}
-```
+## Additional Resources
 
-To learn more about the advanced configuration options, check out the [docs](https://use.docs.page/configuration).
+- [API Reference](api/README.md) – Full details of ERP APIs.  
+- [Database Schema Overview](db-schema/README.md) – ERD and table documentation.  
+- [Change Log](changelog.md) – Updates and version history.  
+- [Contact & Support](support.md) – How to reach support for assistance.
 
-### Content
+---
 
-docs.page uses the `docs` directory to store your documentation pages. Two pages have been created for you:
+## Version Information
 
-- `index.mdx` - The home page of your documentation site, resolves to the root URL.
-- `next-steps.mdx` - A page to help you get started with docs.page, resolves to `/next-steps`.
+- ERP System Version: **1.0.0**  
+- Documentation Last Updated: **2025-12-02**  
 
-Documentation can be written using the standard [GitHub Flavored Markdown Spec](https://github.github.com/gfm/) and also supports the use of [MDX](https://mdxjs.com/), 
-with the ability to render custom [components](https://use.docs.page/components) for more advanced use cases.
+---
 
-## Preview
-
-To preview your documentation site, head over to [https://docs.page/preview](https://docs.page/preview) in your browser and open this directory.
-
-Previewing your documentation site will allow you to see the changes you make in real-time before you publish to the world.
+> **Tip:** Use the search bar to quickly find modules, APIs, o
