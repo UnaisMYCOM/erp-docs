@@ -1,77 +1,11 @@
 {
   "sidebar": [
     {
-      "group": "Home",
-      "pages": [
-        {
-          "title": "ERP Documentation Home",
-          "href": "/"
-        },
-        {
-          "title": "API Reference",
-          "href": "/api/README.md"
-        },
-        {
-          "title": "Database Schema Overview",
-          "href": "/db-schema/README.md"
-        },
-        {
-          "title": "Change Log",
-          "href": "/changelog.md"
-        },
-        {
-          "title": "Support",
-          "href": "/support.md"
-        }
-      ]
-    },
-    {
-      "group": "Internal Documentation",
-      "pages": [
-        {
-          "title": "Internal Home",
-          "href": "/internal/index.mdx"
-        },
-        {
-          "title": "Purchase Module Overview",
-          "href": "/internal/purchase/overview.mdx"
-        },
-        {
-          "title": "Purchase Workflow",
-          "href": "/internal/purchase/workflow.mdx"
-        },
-        {
-          "title": "Purchase API",
-          "href": "/internal/purchase/api.mdx"
-        },
-        {
-          "title": "Purchase DB Schema",
-          "href": "/internal/purchase/db-schema.mdx"
-        },
-        {
-          "title": "Inventory Module Overview",
-          "href": "/internal/inventory/overview.mdx"
-        },
-        {
-          "title": "Inventory Workflow",
-          "href": "/internal/inventory/workflow.mdx"
-        },
-        {
-          "title": "Inventory API",
-          "href": "/internal/inventory/api.mdx"
-        },
-        {
-          "title": "Inventory DB Schema",
-          "href": "/internal/inventory/db-schema.mdx"
-        }
-      ]
-    },
-    {
       "group": "User Manual",
       "pages": [
         {
           "title": "User Manual Home",
-          "href": "/user-manual/index.mdx"
+          "href": "/user-manual/intial-setup.mdx"
         },
         {
           "title": "Purchase Getting Started",
@@ -96,6 +30,10 @@
         {
           "title": "Inventory FAQ",
           "href": "/user-manual/inventory/faq.mdx"
+        },
+        {
+          "title": "How to Create Location",
+          "href": "/user-manual/location-setup.mdx"
         }
       ]
     }
