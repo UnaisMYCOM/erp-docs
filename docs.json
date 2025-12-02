@@ -5,7 +5,7 @@
       "pages": [
         {
           "title": "User Manual Home",
-          "href": "/user-manual/intial-setup.mdx"
+          "href": "/user-manual/index.mdx"
         },
         {
           "title": "Purchase Getting Started",
